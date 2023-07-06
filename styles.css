@@ -14,10 +14,23 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
+  background-color: #666b6b;
+  padding: 2px;
   text-align: center;
+}
+
+.head img {
+  width: 19%;
+  height: auto;
+  border-radius: 70%;
+}
+
+.icon img {
+  width: 20%;
+  height: auto;
+  margin-left: 30%;
+  text-align: center;
+  border-radius: 20%;
 }
 
 .download i {
@@ -33,7 +46,8 @@ main {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 29px;
+  color: #34d000;
 }
 
 section {
@@ -43,10 +57,19 @@ section {
 h2 {
   font-size: 18px;
   margin-bottom: 10px;
+  color: #e41b00;
 }
 
 ul {
   list-style-type: none;
+}
+
+.kenh {
+  color: #67ae03;
+}
+
+.nhom {
+  color: #008db1;
 }
 
 .download ul li a {
@@ -64,11 +87,10 @@ ul {
 } 
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #3a3a3a;
+  color: #00b795;
   padding: 10px;
   text-align: center;
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -77,9 +99,6 @@ footer {
 /* Responsive Styles */
 
 @media screen and (max-width: 600px) {
-  h1 {
-    font-size: 20px;
-  }
   
   h2 {
     font-size: 16px;
