@@ -1,0 +1,91 @@
+/* Reset some default styles for consistent rendering */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.download i {
+    color: rgb(0, 234, 255);
+}
+
+.tb {
+    color: red;
+}
+
+main {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.download ul li a {
+    text-align: center;
+    color: #0e563c;
+}
+
+.ds ul li a {
+    text-align: center;
+    color: #8b054f;
+}
+
+.ds i {
+    color: #801806;
+} 
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+  
+  footer {
+    font-size: 12px;
+  }
+}
